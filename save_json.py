@@ -31,7 +31,6 @@ class SaveJson:
             folder = (base_dir / path)
             folder.mkdir(parents=True, exist_ok=True)
             file_path = (folder / f"{filename}.{type}")
-            n = result = data if (filename) == "type" else data
             result = data
 
             self.loc = file_path
